@@ -1,4 +1,4 @@
-from main import coin_toss, weighted_coin_toss, main
+from main import coin_toss, weighted_coin_toss
 
 def test_coin_toss():
     # Test that the coin toss function returns a tuple

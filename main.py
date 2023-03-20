@@ -14,6 +14,16 @@ def coin_toss(n):
             tails += 1
     return heads, tails
 
+def weighted_coin_toss(n):
+    heads = 0
+    tails = 0
+    for i in range(n):
+        if np.random.randint(0, 10) < 7:
+            heads += 1
+        else:
+            tails += 1
+    return heads, tails
+
 
 
 def main():
