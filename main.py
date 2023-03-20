@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import plotly.express as px
 
+# This is a comment
 
 def coin_toss(n):
     heads = 0
